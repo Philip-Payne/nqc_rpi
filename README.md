@@ -3,7 +3,7 @@ Installation of NQC for the Lego® RCX on a Raspberry Pi
 
 ## Introduction
 
-X has produced a fine set of instructions for setting up NQC on the Raspberry Pi to allow you to compile and download code to the Lego® RCX. While these instructions are very clear there are a number of steps and an error in an early step can cause a problem later on. In order to simplify the process I have created a batch file which will do the following
+[Someone has produced](https://minordiscoveries.wordpress.com/2014/01/20/using-nqc-on-a-raspberry-pi-to-program-a-lego-mindstorms-rcx-brick/) a fine set of instructions for setting up NQC on the Raspberry Pi to allow you to compile and download code to the Lego® RCX. While these instructions are very clear there are a number of steps and an error in an early step can cause a problem later on. In order to simplify the process I have created a batch file which will do the following
 
 1. Create the necessary directory structure
 2. Install and compile NQC and all dependencies 
@@ -34,9 +34,10 @@ find /lib/modules -name *lego*
 You should see a response similar to 
 
 ```bash
-/lib/modules/3.10.18+/kernel/drivers/usb/misc/legousbtower.ko
-/lib/modules/3.10.25+/kernel/drivers/usb/misc/legousbtower.ko
-/lib/modules/3.10.26+/kernel/drivers/usb/misc/legousbtower.ko
+/lib/modules/5.10.17-v8+/kernel/drivers/usb/misc/legousbtower.ko
+/lib/modules/5.10.17+/kernel/drivers/usb/misc/legousbtower.ko
+/lib/modules/5.10.17-v7+/kernel/drivers/usb/misc/legousbtower.ko
+/lib/modules/5.10.17-v7l+/kernel/drivers/usb/misc/legousbtower.ko
 ```
 
 Now plug in the USB Tower. Note that on my Raspberry Pi 3B some USB ports did not seem to recognise the tower so be prepared to try more than once.
