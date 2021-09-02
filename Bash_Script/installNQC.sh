@@ -21,6 +21,10 @@ wget http://bricxcc.sourceforge.net/nqc/release/nqc-3.1.r6.tgz
 tar xfz nqc-3.1.r6.tgz
 cd $homeDirectory
 
+# Apply the USB tower patch
+wget https://sourceforge.net/p/bricxcc/patches/_discuss/thread/00b427dc/b84b/attachment/nqc-01-Linux_usb_and_tcp.diff
+patch -p0 < nqc-01-Linux_usb_and_tcp.diff
+
 # Install Bison & Flex
 apt-get install bison flex -y
 
