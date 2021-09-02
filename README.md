@@ -58,7 +58,7 @@ Assuming the above has worked you can now download and run the Bash script
 
 ```bash
 cd
-wget something
+wget https://github.com/Philip-Payne/nqc_rpi/blob/9811423d983c247c6d6219fb3382b122205d3378/Bash_Script/installNQC.sh
 sudo ./installNQC.sh
 ```
 
