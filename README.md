@@ -21,7 +21,7 @@ The Bash script relies on a number of files that are hosted on various web sites
 
 ### Set up the Raspberry Pi
 
-Follow the standard installation outlined by the Raspberry Pi foundation here…
+Follow the [standard installation outlined by the Raspberry Pi foundation here…](https://www.raspberrypi.org/documentation/computers/getting-started.html)
 
 ### Open a terminal and run the following commands
 
@@ -62,15 +62,20 @@ wget https://raw.githubusercontent.com/Philip-Payne/nqc_rpi/main/Bash_Script/ins
 sudo bash ./installNQC.sh
 ```
 
-The process will take some time to run (about x mins on my Raspberry Pi Zero) and you will see the following message when it completes.
+The process will take some time to run (about 10 mins on my Raspberry Pi Zero) and you will see the following message when it completes.
+You will see lots of warnings during the installation - you can safely ignore these.
 
 ```bash
-# some message
+********************
+*                  *
+* Install Complete *
+*                  *
+********************
 ```
 
 You should now have an installed and functioning copy of NQC and a firmware directory containing all the various firmware versions that are available.
 
-To download the mos recent Lego® firmware to your RCX turn on your RCX and place it close to the USB tower with the transparent window of the RCX facing the tower and run the following command.
+To download the most recent Lego® firmware to your RCX turn on your RCX and place it close to the USB tower with the transparent window of the RCX facing the tower and run the following command.
 
 ```bash
 nqc -Susb:/dev/usb/legousbtower0 -firmware /home/pi/nqc-3.1.r6/firmware/firm0332.lgo
