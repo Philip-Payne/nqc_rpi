@@ -58,8 +58,8 @@ Assuming the above has worked you can now download and run the Bash script
 
 ```bash
 cd
-wget https://github.com/Philip-Payne/nqc_rpi/blob/9811423d983c247c6d6219fb3382b122205d3378/Bash_Script/installNQC.sh
-sudo ./installNQC.sh
+wget https://raw.githubusercontent.com/Philip-Payne/nqc_rpi/main/Bash_Script/installNQC.sh
+sudo bash ./installNQC.sh
 ```
 
 The process will take some time to run (about x mins on my Raspberry Pi Zero) and you will see the following message when it completes.
