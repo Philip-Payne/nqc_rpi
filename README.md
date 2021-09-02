@@ -63,6 +63,7 @@ sudo bash ./installNQC.sh
 ```
 
 The process will take some time to run (about 10 mins on my Raspberry Pi Zero) and you will see the following message when it completes.
+
 You will see lots of warnings during the installation - you can safely ignore these.
 
 ```bash
