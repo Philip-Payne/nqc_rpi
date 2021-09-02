@@ -53,7 +53,7 @@ And you should get a response similar to
 crw-rw-rw- 1 root root 180, 160 Aug 29 16:03 legousbtower0
 ```
 
-Assuming the above has worked you can now download and run the Bash scrip
+Assuming the above has worked you can now download and run the Bash script
 
 ```bash
 cd
