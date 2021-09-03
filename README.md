@@ -93,3 +93,5 @@ More details of the NQC compiler can be found by running
 ```bash
 nqc -help
 ```
+
+More details of the NQC language and example code can be found at [the NQC Sourceforge page](http://bricxcc.sourceforge.net/nqc/)
