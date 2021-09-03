@@ -17,6 +17,10 @@ Comments are placed in the code if you want to make changes based on the above p
 
 The Bash script relies on a number of files that are hosted on various web sites which could potentially be down at any given time. I did not create these files and so am reluctant to host copies myself but I have downloaded these files and, if they become unavailable, I will alter the script.
 
+You can install NQC on the Raspberry Pi Desktop OS running in a Virtual Machine. See RaspberryPi_Desktop_Notes.md for details.
+
+It is possible to use a serial IR tower with a serial to USB adapter but it is not clear that all adapters will work. The only option is to buy one and try it.
+
 ## Installation
 
 ### Set up the Raspberry Pi
